@@ -1,24 +1,26 @@
 * {
     image-rendering: pixelated;
+    background-repeat: no-repeat;
 }
 
 body {
     background-color: black;
-    zoom: 1;
+    margin: 0px;
+    display: grid;
+    place-items: center;
 }
+
 .root {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    zoom: 3;
 }
 
 .bg {
     position: relative;
     width: 192px;
     height: 128px;
-    background-image: url(./img/Sprite-0002.png);   
+    background-image: url(./img/Sprite-0002.png);  
+    /* border: 10px solid green; */
 }
 
 .test {
