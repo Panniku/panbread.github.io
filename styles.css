@@ -1,0 +1,29 @@
+* {
+    image-rendering: pixelated;
+}
+
+body {
+    background-color: black;
+    zoom: 1;
+}
+.root {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg {
+    position: relative;
+    width: 192px;
+    height: 128px;
+    background-image: url(./img/Sprite-0002.png);   
+}
+
+.test {
+    position: absolute;
+    width: 192px;
+    height: 128px;
+    background-image: url(./img/aligntest.png);
+}
