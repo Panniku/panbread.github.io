@@ -1,128 +1,125 @@
 * {
-    image-rendering: pixelated;
-    background-repeat: no-repeat;
-}
-
-html {
-    height: 100vh;
+  image-rendering: pixelated;
+  background-repeat: no-repeat;
 }
 
 body {
-    background-color: #454a6a;
-    margin: 0px;
-    display: grid;
-    place-items: center;
+  background-color: #454a6a;
+  margin: 0px;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 .root {
-    position: relative;
-    width: 196px;
-    height: 128px;
-    transform: scale(4);
+  position: relative;
+  zoom: 4;
+  -moz-transform: scale(4);
+  width: 196px;
+  height: 128px;
 }
 
 .bgRoot {
-    position: relative;
-    width: 192px;
-    height: 128px;
-    background-image: url(./img/Sprite-0002.png);  
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 192px;
+  height: 128px;
+  background-image: url(./img/Sprite-0002.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .itemsContainer {
-    position: absolute;
-    width: 190px;
-    height: 126px;
-    display: flex;
-    flex-direction: column;
-    /* background-image: url(./img/aligntest.png); */
-    outline: 1px solid #ffffff2c;
+  position: absolute;
+  width: 190px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url(./img/aligntest.png); */
+  outline: 1px solid #ffffff2c;
 }
 .titleBar {
-    width: 190px;
-    height: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-image: url(./img/bars.png);
+  width: 190px;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(./img/bars.png);
 }
 
 .tabContainer {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .tabItem {
-    width: 40px;
-    height: 9px;
+  width: 40px;
+  height: 9px;
 }
 .tabHome {
-    background-image: url(./img/tab_home.png);
+  background-image: url(./img/tab_home.png);
 }
 .tabExamples {
-    background-image: url(./img/tab_home.png);
+  background-image: url(./img/tab_home.png);
 }
 .tabPrices {
-    background-image: url(./img/tab_home.png);
+  background-image: url(./img/tab_home.png);
 }
 .tabTOS {
-    background-image: url(./img/tab_home.png);
+  background-image: url(./img/tab_home.png);
 }
 
 .toolbar {
-    width: 30px;
-    height: 9px;
-    display: flex;
-    flex-direction: row;
-    direction: rtl;
-    margin-top: 1px;
-    margin-right: 0px;
+  width: 30px;
+  height: 9px;
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+  margin-top: 1px;
+  margin-right: 0px;
 }
 .toolbarItem {
-    width: 7px;
-    height: 7px;
-    margin-right: 1px;
+  width: 7px;
+  height: 7px;
+  margin-right: 1px;
 }
 .toolbarItem.close {
-    background-image: url(./img/close.png);
+  background-image: url(./img/close.png);
 }
 .toolbarItem.max {
-    background-image: url(./img/close.png);
+  background-image: url(./img/close.png);
 }
 .toolbarItem.min {
-    background-image: url(./img/close.png);
+  background-image: url(./img/close.png);
 }
 
 .mainContent {
-    display: flex;
-    flex-direction: row;
-    align-self: start;
-    width: 190px;
-    height: 106px;
-    /* outline: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-self: start;
+  width: 190px;
+  height: 106px;
+  /* outline: 1px solid blue; */
 }
 .mainContent .colAbout {
-    width: 67px;
-    height: 106px;
-    /* outline: 1px solid red; */
-    background-image: url(./img/colabout.png);
+  width: 67px;
+  height: 106px;
+  /* outline: 1px solid red; */
+  background-image: url(./img/colabout.png);
 }
 .mainContent .colInfo {
-    width: 62px;
-    height: 106px;
-    /* outline: 1px solid green; */
-    background-image: url(./img/colinfo.png);
+  width: 62px;
+  height: 106px;
+  /* outline: 1px solid green; */
+  background-image: url(./img/colinfo.png);
 }
 .mainContent .colSocials {
-    background-image: none; 
-    /* sorry */
+  background-image: none;
+  /* sorry */
 }
 
-
 .statusBar {
-    width: 190px;
-    height: 10px;
-    /* outline: 1px solid green; */
-    background-image: url(./img/statusbar.png);
-} 
+  width: 190px;
+  height: 10px;
+  /* outline: 1px solid green; */
+  background-image: url(./img/statusbar.png);
+}
