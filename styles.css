@@ -3,6 +3,10 @@
     background-repeat: no-repeat;
 }
 
+html {
+    height: 100vh;
+}
+
 body {
     background-color: #454a6a;
     margin: 0px;
@@ -12,9 +16,9 @@ body {
 
 .root {
     position: relative;
-    zoom: 4;
     width: 196px;
     height: 128px;
+    transform: scale(4);
 }
 
 .bgRoot {
