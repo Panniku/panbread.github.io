@@ -1,4 +1,8 @@
-# sv
+# panniku.github.io
+
+personal website v5 made in SvelteKit
+
+## Svelte
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
