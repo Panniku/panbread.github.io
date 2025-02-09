@@ -1,0 +1,37 @@
+:root {
+  --color-fg: #4d4d4c;
+  --color-bg: #fafafa;
+  --color-header: #d6d6d6;
+  --color-selection: #d6d6d6;
+  --color-border: #8e908c;
+}
+
+:root .theme-dark {
+  --color-fg: #c5c8c6;
+  --color-bg: #1d1f21;
+  --color-header: #373b41;
+  --color-selection: #373b41;
+  --color-border: #969896;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./lib/assets/Inter-VariableFont_opsz,wght.ttf");
+}
+
+* {
+  transition: background-color 0.25s, color 0.25s;
+}
+
+::selection {
+  background-color: var(--color-selection);
+}
+
+body {
+  font-family: "Inter";
+}
+
+a {
+  color: var(--color-fg);
+  text-decoration: none;
+}

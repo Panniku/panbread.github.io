@@ -1,14 +1,13 @@
-<script>
-    import Header from "$lib/header.svelte";
-</script>
+<script></script>
 
-<Header></Header>
+<h1>hello</h1>
 
-THIS IS A WORK IN PROGRESS.
+im panbread, a programmer with some skill in some languages
+<br>
+this site is very barebones for now, i am slowly learning Svelte to rebuild this again
+<br>
+as of writing this, i do not know what to write here...
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h2>featured projects</h2>
 
-<style>
 
-</style>
