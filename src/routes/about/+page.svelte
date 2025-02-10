@@ -179,10 +179,6 @@
         padding: 4px;
     }
 
-    .text {
-        padding: 0 1em;
-    }
-
     .tables {
         display: flex;
         flex-direction: row;

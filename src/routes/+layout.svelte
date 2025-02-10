@@ -24,6 +24,7 @@
 .content {
   height: 100%;
   margin: 24px auto;
+  padding: 24px;
 }
 
 @media screen and (max-width: 660px) {

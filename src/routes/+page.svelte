@@ -33,7 +33,7 @@
     }
 
     .name {
-        font-size: 5em;
+        font-size: 3em;
     }
 
     .name:hover .hiddenName, .name:active .hiddenName {
