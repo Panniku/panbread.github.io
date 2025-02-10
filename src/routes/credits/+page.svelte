@@ -40,40 +40,19 @@
     <a href="https://github.com/chriskempson/vim-tomorrow-theme/">the vim colorscheme</a>
 </article>
 
-<h2>others</h2>
+<article>
+    <h2>others</h2>
 
-<table class="creditsTable">
-    <thead>
-        <tr>
-            <th>author</th>
-            <th>purpose</th>
-        </tr>
-    </thead>
-    <tbody>
-        {#each credits as row}
-            <tr>
-                <td>
-                    <a href="{row.author}">{row.author}</a>
-                </td>
-                <td>{row.purpose}</td>
-            </tr>
-        {/each}
-    </tbody>
-</table>
+    {#each credits as credit}
+        <a href="{credit.author}">{credit.author}</a>
+        <br>
+        {credit.purpose}
+        <br>
+        <br>
+    {/each}
+</article>
 
 <style>
-
-    table {
-        margin: 1em;
-        border-collapse: collapse;
-        height: fit-content;
-    }
-
-    th, td {
-        border: 1px solid var(--color-border);
-        text-align: start;
-        padding: 4px;
-    }
 
     a {
         color: var(--color-blue);
