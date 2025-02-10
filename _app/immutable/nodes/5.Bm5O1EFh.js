@@ -1,1 +1,0 @@
-import{t as r,a}from"../chunks/BE3b6vyt.js";import"../chunks/CtFqW_vs.js";import{a3 as o}from"../chunks/Dh1VNt2d.js";var p=r("this page will display my pinned repositories on my github page. <br> there is only one repository so far, so this will be empty..",1);function m(e){o();var t=p();o(2),a(e,t)}export{m as component};
