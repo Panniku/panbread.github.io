@@ -1,3 +1,17 @@
-this page will display my pinned repositories on my github page. 
-<br>
-there is only one repository so far, so this will be empty..
+<script></script>
+
+<div class="container">
+    no notable projects other than 
+    <a href="https://github.com/Panniku/ScrnshotMgr">ScrnshotMgr</a>
+
+    <br>
+    maybe one day, there will be another notable project to add here...!
+</div>
+
+<style>
+
+a {
+    color: var(--color-blue);
+}
+
+</style>

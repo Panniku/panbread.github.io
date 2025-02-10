@@ -24,7 +24,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 60%;
+        margin-top: calc(10em);
         padding: 24px;
     }
 
