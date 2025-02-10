@@ -1,3 +1,3 @@
-work in progress!
+this page will display my pinned repositories on my github page. 
 <br>
-this will feature all projects from my github.
+there is only one repository so far, so this will be empty..

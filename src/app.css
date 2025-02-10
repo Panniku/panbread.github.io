@@ -4,6 +4,13 @@
   --color-header: #d6d6d6;
   --color-selection: #d6d6d6;
   --color-border: #8e908c;
+  --color-red: #c82829;
+  --color-orange: #f5871f;
+  --color-yellow: #eab700;
+  --color-green: #718c00;
+  --color-aqua: #3e999f;
+  --color-blue: #4271ae;
+  --color-purple: #8959a8;
 }
 
 :root .theme-dark {
@@ -12,23 +19,43 @@
   --color-header: #373b41;
   --color-selection: #373b41;
   --color-border: #969896;
+  --color-red: #cc6666;
+  --color-orange: #de935f;
+  --color-yellow: #f0c674;
+  --color-green: #b5bd68;
+  --color-aqua: #8abeb7;
+  --color-blue: #81a2be;
+  --color-purple: #b294bb;
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("./lib/assets/Inter-VariableFont_opsz,wght.ttf");
-}
-
-* {
-  transition: background-color 0.25s, color 0.25s;
+  src: url("./lib/assets/Inter.ttf");
 }
 
 ::selection {
   background-color: var(--color-selection);
 }
 
+* {
+  transition: all 0.25s ease;
+}
+
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Inter";
+  width: 100%;
+  /* https://vendicated.dev/en/ */
+  /* What do you mean this works? ?????????? */
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: var(--color-fg);
+  background: var(--color-bg);
 }
 
 a {
