@@ -6,10 +6,9 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"deploy": "gh-pages -d build -t",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"final": "npm run build && npm run deploy"
+		"done": "npm run build && gh-pages -d build -t"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^4.0.0",
