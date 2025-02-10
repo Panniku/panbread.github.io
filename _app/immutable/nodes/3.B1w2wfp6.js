@@ -1,1 +1,0 @@
-import{t as a,b as e}from"../chunks/D2jvvSbS.js";import"../chunks/AzczLvCK.js";import{an as r}from"../chunks/DNCD4mh8.js";var p=a("work in progress! <br> this will feature all projects from my github.",1);function s(t){r();var o=p();r(2),e(t,o)}export{s as component};
