@@ -30,7 +30,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("./lib/assets/Inter.ttf");
+  src: url("./lib/assets/font/Inter.ttf");
 }
 
 ::selection {
