@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  font-family: "Inter";
+  font-family: "Inter", system-ui, -apple-system;
   width: 100%;
   /* https://vendicated.dev/en/ */
   /* What do you mean this works? ?????????? */
