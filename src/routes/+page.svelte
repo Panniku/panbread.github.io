@@ -24,8 +24,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: calc(10em);
+        margin-top: 25%;
         padding: 24px;
+    }
+
+
+    @media screen and (min-height: 1000px) {
+        .container {
+            margin-top: 75%;
+        }
+    }
+
+    @media screen and (max-height: 450px) {
+        .container {
+            margin-top: 0;
+        }
     }
 
     .name {
@@ -71,7 +84,7 @@
     }
 
     .socials {
-        margin-top: 25%;
+        margin-top: 15%;
         display: flex;
         flex-direction: row;
         gap: 1em;
