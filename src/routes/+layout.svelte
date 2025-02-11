@@ -14,6 +14,10 @@
   <meta property="og:image" content="{previewImage}" />
   <meta property="og:description" content="my personal website!" />
   <meta name="theme-color" content="#1d1f21">
+  <!-- Additional tags -->
+  <meta name="twitter:title" content="panbread's site">
+  <meta name="twitter:description" content="my personal website!">
+  <meta name="twitter:image" content="{previewImage}">
   <meta name="twitter:card" content="summary_large_image">
 </svelte:head>
 
