@@ -8,21 +8,18 @@
 </script>
 
 <svelte:head>
-  <meta property="og:url" content="http://panniku.github.io">
+  <title>panbread's site</title>
+  <meta property="og:author" content="panbread">
   <meta property="og:title" content="panbread's site">
-  <meta property="og:type" content="website">
   <meta property="og:description" content="my personal website!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://panniku.github.io">
+  <meta name="theme-color" content="#81a2be">
   <meta property="og:image" content="{previewImage}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
-  <meta name="theme-color" content="#81a2be">
-  <!-- Additional tags -->
-  <meta name="twitter:title" content="panbread's site">
-  <meta name="twitter:description" content="my personal website!">
-  <meta name="twitter:image" content="{previewImage}">
   <meta name="twitter:card" content="summary_large_image">
-  <!-- Image tags -->
 </svelte:head>
 
 <Header></Header>
@@ -41,8 +38,7 @@
 <style>
 
 .content {
-  height: 100%;
-  margin: 24px auto;
+  margin: 0 auto;
   padding: 24px;
 }
 
@@ -69,11 +65,8 @@
 
 @media screen and (max-height: 330px) {
   .content {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-  } 
-  .footer {
-    margin-top: 0;
   } 
 }
 

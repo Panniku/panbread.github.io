@@ -21,19 +21,26 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 25%;
+        margin-top: 18em;
         padding: 24px;
     }
 
-    @media screen and (min-height: 1000px) {
+    @media screen and (max-height: 900px) {
         .container {
-            margin-top: 75%;
+            margin-top: 10em;
         }
     }
 
-    @media screen and (max-height: 450px) {
+    @media screen and (max-height: 600px) {
+        .container {
+            margin-top: 5em;
+        }
+    }
+
+    @media screen and (max-height: 470px) {
         .container {
             margin-top: 0;
+            padding: 0;
         }
     }
 
@@ -57,7 +64,7 @@
     }
 
     .socials {
-        margin-top: 15%;
+        margin-top: 1em;
         display: flex;
         flex-direction: row;
         gap: 1em;
