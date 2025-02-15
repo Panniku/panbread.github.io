@@ -10,12 +10,11 @@
 <svelte:head>
   <meta property="og:url" content="http://panniku.github.io">
   <meta property="og:title" content="panbread's site">
-  <meta property="og:site_name" content="panbread's site">
   <meta property="og:type" content="website">
   <meta property="og:description" content="my personal website!">
   <meta property="og:image" content="{previewImage}">
-  <meta property="og:image:width" content="1920">
-  <meta property="og:image:height" content="1080">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:type" content="image/png">
   <meta name="theme-color" content="#81a2be">
   <!-- Additional tags -->
