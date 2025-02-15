@@ -2,11 +2,8 @@
 
 
 <div class="container">
-    <div class="name">
-        <div class="hiddenName">
-            <span class="pan">pan<span class="hiddenText">niku</span></span>
-        </div>
-        <div class="realName">panbread's site</div>
+    <div class="name">panbread's 
+        <span class="site" >site</span>
     </div>
     <div class="bigText">hi,</div>
     <div class="smallText">take a look around!</div>
@@ -28,7 +25,6 @@
         padding: 24px;
     }
 
-
     @media screen and (min-height: 1000px) {
         .container {
             margin-top: 75%;
@@ -43,35 +39,11 @@
 
     .name {
         margin-bottom: 24px;
-    }
-
-    .name {
         font-size: 3em;
     }
 
-    .name:hover .hiddenName, .name:active .hiddenName {
-        transform: translateY(-100%);
-    }
-
-    .name:hover .hiddenText, .name:active .hiddenText {
-        opacity: 1;
-    }
-
-    .hiddenName {
-        user-select: none;
-        position: absolute;
-        transition: transform 0.25s ease, visibility 0.25s ease;
-    }
-
-    .pan {
-        visibility: hidden;
-    }
-
-    .hiddenText {
-        visibility: visible;
-        color: var(--color-border);
-        opacity: 0;
-        transition: opacity 0.25s ease;
+    .name .site {
+       color: var(--color-blue);
     }
 
     .bigText {
@@ -81,6 +53,7 @@
     
     .smallText {
         font-size: large;
+        color: var(--color-green);
     }
 
     .socials {

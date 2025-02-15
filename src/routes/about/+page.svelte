@@ -1,5 +1,6 @@
 <script>
 
+    import Table from "$lib/components/table.svelte";
 
     let infoTableData = [
         {
@@ -100,108 +101,32 @@
 </script>
 
 <div class="text">
-    <h3>about me</h3>
+    <h2>about me</h2>
 
     i write code to make custom applications for the ease of not using existing ones, or for learning
 
-    <h3>personal info</h3>
+    <h2>personal info</h2>
 </div>
 
 <div class="tables">
-    <table class="infoTable">
-        <thead>
-            <tr>
-                <th>me</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!--https://svelte.dev/playground/7b02f45e49744502bf5f03cb61375f9f?version=5.19.9-->
-            {#each infoTableData as row}
-                <tr>
-                    <td>{row.key}</td>
-                    <td>{row.value}</td>
-                </tr>
-            {/each}
-        </tbody>
-    </table>
-    <table class="langTable">
-        <thead>
-            <tr>
-                <th>icn</th>
-                <th>lang</th>
-                <th>status</th>
-            </tr>
-        </thead>
-        <tbody>
-            {#each langTableData as row}
-                <tr>
-                    <td>
-                        {@html row.icon}
-                    </td>
-                    <td>{row.name}</td>
-                    <td>
-                        <span class="{row.status}">{row.status}</span>
-                    </td>
-                </tr>
-            {/each}
-        </tbody>
-    </table>
-    <table class="frameworkTable">
-        <thead>
-            <tr>
-                <th>frameworks</th>
-            </tr>
-        </thead>
-        <tbody>
-            {#each frameworkTableData as row}
-            <tr>
-                <td>
-                    {@html row.icon}
-                </td>
-                <td>{row.name}</td>
-            </tr>
-        {/each}
-        </tbody>
-    </table>
+    <Table name="infoTable" data={infoTableData}></Table>
+    <Table name="langTable" data={langTableData}></Table>
+    <Table name="frameworkTable" data={frameworkTableData}></Table>
 </div>
 
 <style>
 
-    table {
-        margin: 1em;
-        border-collapse: collapse;
-        height: fit-content;
-    }
+.tables {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
 
-    th, td {
-        border: 1px solid var(--color-border);
-        text-align: start;
-        padding: 4px;
-    }
-
+@media screen and (max-width: 600px) {
     .tables {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 12px;
+        flex-direction: column;
     }
-
-    @media screen and (max-width: 600px) {
-        .tables {
-            flex-direction: column;
-        }
-    }
-
-    .fluent {
-        color: var(--color-green);
-    }
-
-    .somewhat {
-        color: var(--color-orange);
-    }
-
-    .learning {
-        color: var(--color-aqua);   
-    }
+}
     
 </style>

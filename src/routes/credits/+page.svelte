@@ -40,7 +40,7 @@
     <a href="https://github.com/chriskempson/vim-tomorrow-theme/">the vim colorscheme</a>
 </article>
 
-<article>
+<article class="others">
     <h2>others</h2>
 
     {#each credits as credit}
@@ -54,8 +54,12 @@
 
 <style>
 
-    a {
-        color: var(--color-blue);
-    }
+a {
+    color: var(--color-blue);
+}
+
+.others a {
+    font-size: larger;
+}
 
 </style>

@@ -1,6 +1,9 @@
 <script></script>
 
 <div class="container">
+
+    <h2>projects</h2>
+
     no notable projects other than 
     <a href="https://github.com/Panniku/ScrnshotMgr">ScrnshotMgr</a>
 
