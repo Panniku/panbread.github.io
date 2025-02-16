@@ -1,25 +1,32 @@
 <script>
-    import Header from "$lib/components/header.svelte";
-    import previewImage from "$lib/assets/preview.png";
-    import '../app.css';
+  import Header from "$lib/components/header.svelte";
+  import darkFavicon from "$lib/assets/images/favicon_dark.png";
+  import lightFavicon from "$lib/assets/images/favicon_light.png";
+  import '../app.css';
+  import { theme } from "$lib/stores";
 
-    let { children } = $props();
+  let { children } = $props();
+  
+  let image = "https://raw.githubusercontent.com/Panniku/panniku.github.io/refs/heads/master/src/lib/assets/images/preview.png";
+  let currentTheme = $derived($theme);
 
 </script>
 
 <svelte:head>
   <title>panbread's site</title>
+  <link rel="icon" href="{currentTheme == "dark" ? darkFavicon : lightFavicon}"/>
   <meta property="og:author" content="panbread">
   <meta property="og:title" content="panbread's site">
   <meta property="og:description" content="my personal website!">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://panniku.github.io">
+  <meta property="og:url" content="https://panniku.github.io">
   <meta name="theme-color" content="#81a2be">
-  <meta property="og:image" content="{previewImage}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image" content="{image}">
   <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://panniku.github.io">
+  <meta property="twitter:title" content="panbread's site">
+  <meta property="twitter:description" content="my personal website!">
+  <meta property="twitter:image" content="{image}">
 </svelte:head>
 
 <Header></Header>

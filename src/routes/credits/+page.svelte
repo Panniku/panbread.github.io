@@ -11,7 +11,7 @@
         },        
         {
             author: "https://v7.aikoyori.xyz",
-            purpose: "home page idea"
+            purpose: "home, minigames idea"
         },        
         {
             author: "https://megu.dev",

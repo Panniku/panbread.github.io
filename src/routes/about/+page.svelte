@@ -13,7 +13,7 @@
         },
         {
             key: "birthday",
-            value: "16 / 09 (dd / mm)"
+            value: "sept 16"
         },
         {
             key: "likes",
