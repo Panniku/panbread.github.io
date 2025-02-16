@@ -1,13 +1,13 @@
 <script>
   import Header from "$lib/components/header.svelte";
-  import darkFavicon from "$lib/assets/images/favicon_dark.png";
-  import lightFavicon from "$lib/assets/images/favicon_light.png";
   import '../app.css';
   import { theme } from "$lib/stores";
 
   let { children } = $props();
   
-  let image = "https://raw.githubusercontent.com/Panniku/panniku.github.io/refs/heads/master/src/lib/assets/images/preview.png";
+  let previewImage = "https://raw.githubusercontent.com/Panniku/panniku.github.io/refs/heads/master/src/lib/assets/images/preview.png";
+  let darkFavicon = "https://raw.githubusercontent.com/Panniku/panniku.github.io/refs/heads/master/src/lib/assets/images/favicon_dark.png";
+  let lightFavicon = "https://raw.githubusercontent.com/Panniku/panniku.github.io/refs/heads/master/src/lib/assets/images/favicon_light.png";
   let currentTheme = $derived($theme);
 
 </script>
@@ -21,12 +21,12 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://panniku.github.io">
   <meta name="theme-color" content="#81a2be">
-  <meta property="og:image" content="{image}">
+  <meta property="og:image" content="{previewImage}">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://panniku.github.io">
   <meta property="twitter:title" content="panbread's site">
   <meta property="twitter:description" content="my personal website!">
-  <meta property="twitter:image" content="{image}">
+  <meta property="twitter:image" content="{previewImage}">
 </svelte:head>
 
 <Header></Header>
