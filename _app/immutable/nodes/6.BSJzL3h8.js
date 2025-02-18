@@ -1,0 +1,1 @@
+import{t as o,a}from"../chunks/CYx40VtC.js";import"../chunks/BnAFQPpz.js";var r=o('<div class="container"><h2>projects</h2> no notable projects other than <a href="https://github.com/Panniku/ScrnshotMgr" class="svelte-bvik32">ScrnshotMgr</a> <br> maybe one day, there will be another notable project to add here...!</div>');function h(t){var e=r();a(t,e)}export{h as component};
