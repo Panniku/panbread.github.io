@@ -40,6 +40,13 @@
     <a href="https://github.com/chriskempson/vim-tomorrow-theme/">the vim colorscheme</a>
 </article>
 
+<article>
+    <h2>icons</h2>
+    <a href="https://github.com/atisawd/boxicons">boxicons</a>
+    are used from 
+    <a href="https://icon-sets.iconify.design">this site</a>
+</article>
+
 <article class="others">
     <h2>others</h2>
 

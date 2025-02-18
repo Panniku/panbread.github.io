@@ -30,7 +30,11 @@
 </svelte:head>
 
 <Header></Header>
-    
+
+<div class="screenshot">
+
+</div>
+
 <main class="content">
     {@render children()}
 </main>
@@ -43,6 +47,15 @@
 </nav>
 
 <style>
+
+.screenshot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 630px;
+}
 
 .content {
   margin: 0 auto;
@@ -64,16 +77,23 @@
 }
 
 @media screen and (max-width: 300px) {
+  .footer {
+    font-size: x-small;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
   .content {
     margin: 12px auto;
-    padding: 0;
+    padding: 0 24px;
   } 
 }
 
 @media screen and (max-height: 330px) {
   .content {
     margin: 0;
-    padding: 0;
+    padding: 0 24px;
   } 
 }
 
