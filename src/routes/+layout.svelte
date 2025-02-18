@@ -31,10 +31,6 @@
 
 <Header></Header>
 
-<div class="screenshot">
-
-</div>
-
 <main class="content">
     {@render children()}
 </main>
@@ -47,15 +43,6 @@
 </nav>
 
 <style>
-
-.screenshot {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1200px;
-  height: 630px;
-}
 
 .content {
   margin: 0 auto;
